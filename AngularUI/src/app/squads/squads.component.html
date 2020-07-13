@@ -1,0 +1,8 @@
+<mat-card *ngFor="let squad of squadService.squads">
+    <mat-card-title>
+        {{squad.squad_name}}
+    </mat-card-title>
+    <mat-card-content>
+        {{squad.member_count}}
+    </mat-card-content>
+</mat-card>

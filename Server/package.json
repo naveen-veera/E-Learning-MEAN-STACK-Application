@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server for Mentor Dashboard",
+  "main": "index.js",
+  
+  "scripts": {
+    "start" : "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naveen132895/Mentor-Dashboard.git"
+  },
+  "keywords": [
+    "Mentor",
+    "Dashboard"
+  ],
+  "author": "Veeranaveen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naveen132895/Mentor-Dashboard/issues"
+  },
+  "homepage": "https://github.com/Naveen132895/Mentor-Dashboard#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.21"
+  }
+}

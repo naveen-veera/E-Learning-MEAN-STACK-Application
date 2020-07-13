@@ -1,0 +1,26 @@
+
+button{
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    min-width: 120px;
+    background-color: #00d48a;
+    color: white;
+}
+
+input{
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+h3{
+    text-align: center;  
+}
+label{
+    margin-top: 1vh;
+}
+mat-card{
+    width: 60%;
+    margin-left: 20%;
+}

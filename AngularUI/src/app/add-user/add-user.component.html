@@ -1,0 +1,45 @@
+
+<mat-card>
+    <div>
+        <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+            <input type="hidden" formControlName="_id" >
+            <label>
+                First Name
+            </label><br>
+            <input type="text" formControlName="first_name" required>
+            <br>
+    
+            <label>
+                Last Name
+            </label><br>
+            <input type="text" formControlName="last_name" required>
+            <br>
+    
+            <label>
+                Email
+            </label><br>
+            <input type="email" formControlName="email" required>
+            <br>
+    
+            <label>
+                Phone
+            </label><br>
+            <input type="number" formControlName="phone" required>
+            <br>
+    
+            <label>
+                Group
+            </label><br>
+            <input type="text" formControlName="group">
+            <br>
+    
+            <label>
+                Date Of Joining
+            </label><br>
+            <input type="Date" formControlName="doj" required>
+            <br><br>
+    
+            <h3><button type="submit" [disabled]="!profileForm.valid">Submit</button></h3>
+        </form>
+    </div>
+</mat-card>
